@@ -28,3 +28,7 @@ This project focuses on student-generated reviews of Computer Science professors
 8. https://www.ratemyprofessors.com/professor/2359760
 9. https://www.ratemyprofessors.com/professor/1719095
 10. https://www.ratemyprofessors.com/professor/1846092
+    
+## Document Structure Notes
+
+After reviewing several professor pages, I observed that the documents consist of many short student reviews. Most reviews focus on teaching quality, workload, exam difficulty, grading fairness, and overall course experience. Important information is usually contained within a single review rather than spread across long paragraphs, which will influence the chunking strategy used in the next milestone.
