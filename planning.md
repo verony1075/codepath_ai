@@ -99,3 +99,14 @@ I will provide my project requirements and planning decisions when asking for im
 I will also use AI tools to help debug errors and improve retrieval quality.
 
 ## Architecture
+
+```mermaid
+flowchart TD
+    A[Rate My Professors Reviews] --> B[Document Ingestion - Python]
+    B --> C[Chunking - 400 chars, 50 overlap]
+    C --> D[Embeddings - all-MiniLM-L6-v2]
+    D --> E[Vector Store - ChromaDB]
+    E --> F[Retrieval - Top 5 Chunks]
+    F --> G[Generation - Llama 3 via Groq]
+    G --> H[Answer with Source Citations]
+```
